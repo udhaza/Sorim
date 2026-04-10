@@ -45,7 +45,7 @@ Answer:
             }
         )
 
-        print("🟣 Raw Response:", response.text)   #5. See raw output
+        print("Raw Response:", response.text)   #5. See raw output
 
         result = response.json()
         answer = result.get("response", "").strip()
@@ -55,5 +55,5 @@ Answer:
         return {"answer": answer}
 
     except Exception as e:
-        print("❌ ERROR:", str(e))   #7. Catch failures
+        print("ERROR:", str(e))   #7. Catch failures
         return {"answer": f"Error connecting to LLM: {str(e)}"}
