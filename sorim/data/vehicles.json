@@ -1,0 +1,297 @@
+{
+  "vehicles": [
+    {
+      "model": "Ford Escape",
+      "type": "SUV",
+      "seating_capacity": 5,
+      "engine_specs": "1.5L EcoBoost I-3",
+      "transmission": "8-speed automatic",
+      "fuel_type": "Petrol",
+      "safety_features": ["Lane Keeping Assist", "Adaptive Cruise Control", "Blind Spot Monitoring", "Automatic Emergency Braking"],
+      "service": {
+        "oil_change_interval": "7500 miles",
+        "tire_rotation_schedule": "5000 miles",
+        "brake_inspection_frequency": "10000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "engine_warning_light", "content": "Indicates engine malfunction. Immediate inspection required."},
+        {"type": "maintenance_reminder", "topic": "service_due", "content": "Vehicle alerts when scheduled maintenance is due."},
+        {"type": "troubleshooting", "topic": "engine_not_starting", "content": "Check battery connections and fuel level."}
+      ]
+    },
+
+    {
+      "model": "Ford Bronco Sport",
+      "type": "SUV",
+      "seating_capacity": 5,
+      "engine_specs": "1.5L EcoBoost",
+      "transmission": "8-speed automatic",
+      "fuel_type": "Petrol",
+      "safety_features": ["Traction Control", "Hill Descent Control", "Electronic Stability Control"],
+      "service": {
+        "oil_change_interval": "7000 miles",
+        "tire_rotation_schedule": "5000 miles",
+        "brake_inspection_frequency": "12000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "traction_warning", "content": "Indicates low traction detected."},
+        {"type": "maintenance_reminder", "topic": "service_alert", "content": "Maintenance reminder appears based on usage."},
+        {"type": "troubleshooting", "topic": "brake_noise", "content": "Inspect brake pads for wear."}
+      ]
+    },
+
+    {
+      "model": "Ford Mustang Mach-E",
+      "type": "SUV",
+      "seating_capacity": 5,
+      "engine_specs": "Electric Motor",
+      "transmission": "Single-speed automatic",
+      "fuel_type": "Electric",
+      "safety_features": ["Autonomous Emergency Braking", "Lane Centering", "Driver Monitoring System"],
+      "service": {
+        "oil_change_interval": "Not required",
+        "tire_rotation_schedule": "6000 miles",
+        "brake_inspection_frequency": "15000 miles",
+        "warranty_details": "8 years battery / 100000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "battery_warning", "content": "Indicates battery system issue."},
+        {"type": "maintenance_reminder", "topic": "battery_check", "content": "Regular battery diagnostics recommended."},
+        {"type": "troubleshooting", "topic": "charging_issue", "content": "Check charging cable and station."}
+      ]
+    },
+
+    {
+      "model": "Ford Explorer",
+      "type": "SUV",
+      "seating_capacity": 7,
+      "engine_specs": "2.3L EcoBoost I-4",
+      "transmission": "10-speed automatic",
+      "fuel_type": "Petrol",
+      "safety_features": ["Blind Spot Monitoring", "Lane Keeping Assist", "Collision Warning"],
+      "service": {
+        "oil_change_interval": "7500 miles",
+        "tire_rotation_schedule": "5000 miles",
+        "brake_inspection_frequency": "10000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "engine_light", "content": "Engine system needs immediate attention."},
+        {"type": "maintenance_reminder", "topic": "service_due", "content": "Displayed when maintenance is required."},
+        {"type": "troubleshooting", "topic": "camera_issue", "content": "Clean camera lens if visibility is poor."}
+      ]
+    },
+
+    {
+      "model": "Ford Bronco",
+      "type": "SUV",
+      "seating_capacity": 5,
+      "engine_specs": "2.3L EcoBoost",
+      "transmission": "7-speed manual",
+      "fuel_type": "Petrol",
+      "safety_features": ["4x4 Stability Control", "Hill Start Assist", "Roll Stability Control"],
+      "service": {
+        "oil_change_interval": "7000 miles",
+        "tire_rotation_schedule": "5000 miles",
+        "brake_inspection_frequency": "12000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "traction_control", "content": "Indicates traction system activation."},
+        {"type": "maintenance_reminder", "topic": "offroad_service", "content": "Inspect vehicle after heavy off-road use."},
+        {"type": "troubleshooting", "topic": "suspension_noise", "content": "Check suspension components."}
+      ]
+    },
+
+    {
+      "model": "Ford Expedition",
+      "type": "SUV",
+      "seating_capacity": 8,
+      "engine_specs": "3.5L EcoBoost V6",
+      "transmission": "10-speed automatic",
+      "fuel_type": "Petrol",
+      "safety_features": ["360 Camera", "Lane Assist", "Emergency Braking"],
+      "service": {
+        "oil_change_interval": "8000 miles",
+        "tire_rotation_schedule": "6000 miles",
+        "brake_inspection_frequency": "12000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "brake_warning", "content": "Brake system needs inspection."},
+        {"type": "maintenance_reminder", "topic": "service_alert", "content": "Scheduled service reminder."},
+        {"type": "troubleshooting", "topic": "fuel_efficiency", "content": "Check tire pressure and driving style."}
+      ]
+    },
+
+    {
+      "model": "Ford Maverick",
+      "type": "Truck",
+      "seating_capacity": 5,
+      "engine_specs": "2.5L Hybrid",
+      "transmission": "CVT",
+      "fuel_type": "Hybrid",
+      "safety_features": ["Pre-Collision Assist", "Lane Keeping System", "Rear Camera"],
+      "service": {
+        "oil_change_interval": "10000 miles",
+        "tire_rotation_schedule": "5000 miles",
+        "brake_inspection_frequency": "12000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "hybrid_warning", "content": "Hybrid system needs attention."},
+        {"type": "maintenance_reminder", "topic": "battery_check", "content": "Monitor hybrid battery health."},
+        {"type": "troubleshooting", "topic": "low_mileage", "content": "Check driving mode settings."}
+      ]
+    },
+
+    {
+      "model": "Ford Ranger",
+      "type": "Truck",
+      "seating_capacity": 5,
+      "engine_specs": "2.3L EcoBoost",
+      "transmission": "10-speed automatic",
+      "fuel_type": "Diesel",
+      "safety_features": ["Trailer Sway Control", "ABS", "Stability Control"],
+      "service": {
+        "oil_change_interval": "7500 miles",
+        "tire_rotation_schedule": "5000 miles",
+        "brake_inspection_frequency": "10000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "tow_warning", "content": "Towing system overload."},
+        {"type": "maintenance_reminder", "topic": "service_due", "content": "Maintenance alert based on mileage."},
+        {"type": "troubleshooting", "topic": "gear_issue", "content": "Check transmission fluid."}
+      ]
+    },
+
+    {
+      "model": "Ford F-150",
+      "type": "Truck",
+      "seating_capacity": 5,
+      "engine_specs": "3.3L V6",
+      "transmission": "10-speed automatic",
+      "fuel_type": "Petrol",
+      "safety_features": ["Blind Spot Monitoring", "Collision Warning", "Lane Assist"],
+      "service": {
+        "oil_change_interval": "8000 miles",
+        "tire_rotation_schedule": "6000 miles",
+        "brake_inspection_frequency": "12000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "engine_alert", "content": "Engine needs inspection."},
+        {"type": "maintenance_reminder", "topic": "service_alert", "content": "Service reminder notification."},
+        {"type": "troubleshooting", "topic": "brake_noise", "content": "Inspect brake pads."}
+      ]
+    },
+
+    {
+      "model": "Ford Super Duty",
+      "type": "Truck",
+      "seating_capacity": 5,
+      "engine_specs": "6.7L Power Stroke V8",
+      "transmission": "10-speed automatic",
+      "fuel_type": "Diesel",
+      "safety_features": ["Trailer Assist", "ABS", "Stability Control"],
+      "service": {
+        "oil_change_interval": "10000 miles",
+        "tire_rotation_schedule": "7000 miles",
+        "brake_inspection_frequency": "15000 miles",
+        "warranty_details": "5 years / 60000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "load_warning", "content": "Overload detected."},
+        {"type": "maintenance_reminder", "topic": "heavy_service", "content": "Frequent inspection for heavy-duty use."},
+        {"type": "troubleshooting", "topic": "engine_noise", "content": "Check engine components."}
+      ]
+    },
+
+    {
+      "model": "Ford Mustang",
+      "type": "Sports",
+      "seating_capacity": 4,
+      "engine_specs": "5.0L V8",
+      "transmission": "6-speed manual",
+      "fuel_type": "Petrol",
+      "safety_features": ["Traction Control", "ABS", "Stability Control"],
+      "service": {
+        "oil_change_interval": "7000 miles",
+        "tire_rotation_schedule": "5000 miles",
+        "brake_inspection_frequency": "8000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "engine_alert", "content": "Check engine condition."},
+        {"type": "maintenance_reminder", "topic": "service_due", "content": "Routine maintenance alert."},
+        {"type": "troubleshooting", "topic": "performance_issue", "content": "Check fuel quality."}
+      ]
+    },
+
+    {
+      "model": "Ford Escape Hybrid",
+      "type": "SUV",
+      "seating_capacity": 5,
+      "engine_specs": "2.5L Hybrid",
+      "transmission": "CVT",
+      "fuel_type": "Hybrid",
+      "safety_features": ["Lane Assist", "Collision Warning", "Emergency Braking"],
+      "service": {
+        "oil_change_interval": "10000 miles",
+        "tire_rotation_schedule": "5000 miles",
+        "brake_inspection_frequency": "12000 miles",
+        "warranty_details": "8 years battery / 100000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "battery_alert", "content": "Battery issue detected."},
+        {"type": "maintenance_reminder", "topic": "eco_service", "content": "Hybrid system check reminder."},
+        {"type": "troubleshooting", "topic": "low_efficiency", "content": "Drive in eco mode."}
+      ]
+    },
+
+    {
+      "model": "Ford F-150 Lightning",
+      "type": "Truck",
+      "seating_capacity": 5,
+      "engine_specs": "Dual Electric Motor",
+      "transmission": "Single-speed",
+      "fuel_type": "Electric",
+      "safety_features": ["Collision Avoidance", "Lane Centering", "Driver Monitoring"],
+      "service": {
+        "oil_change_interval": "Not required",
+        "tire_rotation_schedule": "6000 miles",
+        "brake_inspection_frequency": "15000 miles",
+        "warranty_details": "8 years battery / 100000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "charging_alert", "content": "Charging system issue."},
+        {"type": "maintenance_reminder", "topic": "battery_service", "content": "Battery health check reminder."},
+        {"type": "troubleshooting", "topic": "charging_delay", "content": "Check charger connection."}
+      ]
+    },
+
+    {
+      "model": "Ford GT",
+      "type": "Sports",
+      "seating_capacity": 2,
+      "engine_specs": "3.5L EcoBoost V6",
+      "transmission": "7-speed dual-clutch",
+      "fuel_type": "Petrol",
+      "safety_features": ["ABS", "Traction Control", "Stability Control"],
+      "service": {
+        "oil_change_interval": "5000 miles",
+        "tire_rotation_schedule": "Not applicable",
+        "brake_inspection_frequency": "7000 miles",
+        "warranty_details": "3 years / 36000 miles"
+      },
+      "manual": [
+        {"type": "dashboard_warning", "topic": "engine_temp", "content": "Engine overheating warning."},
+        {"type": "maintenance_reminder", "topic": "track_service", "content": "Service required after track use."},
+        {"type": "troubleshooting", "topic": "overheating", "content": "Check coolant system."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ford Automotive AI Assistant </title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            margin: 50px auto;
+            width: 60%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input {
+            width: 70%;
+            padding: 10px;
+            margin: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        #output {
+            margin-top: 20px;
+            text-align: left;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Ford Automotive AI Assistant</h1>
+
+        <input type="text" id="query" placeholder="Ask something..." />
+
+        <br>
+
+        <button onclick="search()"> Search</button>
+        <button onclick="ask()">Ask</button>
+        <button onclick="recommend()">Recommend</button>
+
+        <div id="output"></div>
+    </div>
+<script>
+const BASE_URL = "http://127.0.0.1:8001";
+
+function formatSearchResults(data) {
+    let output = "";
+
+    data.forEach(item => {
+        output += `
+        🚗 ${item.model}
+
+        ${item.text}
+        ---------------------------
+        `;
+    });
+
+    return output;
+}
+
+function formatRecommendResults(data) {
+    let output = "";
+
+    data.forEach(v => {
+        output += `
+        🚗 ${v.model}
+        Type: ${v.type}
+        Seating: ${v.seating_capacity}
+        Engine: ${v.engine_specs}
+        Fuel: ${v.fuel_type}
+
+        ---------------------------
+        `;
+    });
+
+    return output;
+}
+
+async function search() {
+    let q = document.getElementById("query").value;
+
+    let res = await fetch(`${BASE_URL}/search?q=${q}`);
+    let data = await res.json();
+
+    document.getElementById("output").innerText = formatSearchResults(data);
+}
+
+async function ask() {
+    let q = document.getElementById("query").value;
+
+    try {
+        let res = await fetch(`${BASE_URL}/ask?q=${q}`);
+        let data = await res.json();
+
+        document.getElementById("output").innerText = data.answer;
+    } catch (err) {
+        document.getElementById("output").innerText = "Error: Backend not responding";
+    }
+}
+
+async function recommend() {
+    let q = document.getElementById("query").value;
+
+    let res = await fetch(`${BASE_URL}/recommend?q=${q}`);
+    let data = await res.json();
+
+    document.getElementById("output").innerText = formatRecommendResults(data);
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+[
+  {
+    "model": "Ford Escape",
+    "text": "\n    Model: Ford Escape\n    Type: SUV\n    Seating: 5\n    Engine: 1.5L EcoBoost I-3\n    Fuel: Petrol\n    Safety: Lane Keeping Assist, Adaptive Cruise Control, Blind Spot Monitoring, Automatic Emergency Braking\n\n    Service:\n    Oil change: 7500 miles\n    Tire rotation: 5000 miles\n    "
+  },
+  {
+    "model": "Ford Bronco Sport",
+    "text": "\n    Model: Ford Bronco Sport\n    Type: SUV\n    Seating: 5\n    Engine: 1.5L EcoBoost\n    Fuel: Petrol\n    Safety: Traction Control, Hill Descent Control, Electronic Stability Control\n\n    Service:\n    Oil change: 7000 miles\n    Tire rotation: 5000 miles\n    "
+  },
+  {
+    "model": "Ford Mustang Mach-E",
+    "text": "\n    Model: Ford Mustang Mach-E\n    Type: SUV\n    Seating: 5\n    Engine: Electric Motor\n    Fuel: Electric\n    Safety: Autonomous Emergency Braking, Lane Centering, Driver Monitoring System\n\n    Service:\n    Oil change: Not required\n    Tire rotation: 6000 miles\n    "
+  },
+  {
+    "model": "Ford Explorer",
+    "text": "\n    Model: Ford Explorer\n    Type: SUV\n    Seating: 7\n    Engine: 2.3L EcoBoost I-4\n    Fuel: Petrol\n    Safety: Blind Spot Monitoring, Lane Keeping Assist, Collision Warning\n\n    Service:\n    Oil change: 7500 miles\n    Tire rotation: 5000 miles\n    "
+  },
+  {
+    "model": "Ford Bronco",
+    "text": "\n    Model: Ford Bronco\n    Type: SUV\n    Seating: 5\n    Engine: 2.3L EcoBoost\n    Fuel: Petrol\n    Safety: 4x4 Stability Control, Hill Start Assist, Roll Stability Control\n\n    Service:\n    Oil change: 7000 miles\n    Tire rotation: 5000 miles\n    "
+  },
+  {
+    "model": "Ford Expedition",
+    "text": "\n    Model: Ford Expedition\n    Type: SUV\n    Seating: 8\n    Engine: 3.5L EcoBoost V6\n    Fuel: Petrol\n    Safety: 360 Camera, Lane Assist, Emergency Braking\n\n    Service:\n    Oil change: 8000 miles\n    Tire rotation: 6000 miles\n    "
+  },
+  {
+    "model": "Ford Maverick",
+    "text": "\n    Model: Ford Maverick\n    Type: Truck\n    Seating: 5\n    Engine: 2.5L Hybrid\n    Fuel: Hybrid\n    Safety: Pre-Collision Assist, Lane Keeping System, Rear Camera\n\n    Service:\n    Oil change: 10000 miles\n    Tire rotation: 5000 miles\n    "
+  },
+  {
+    "model": "Ford Ranger",
+    "text": "\n    Model: Ford Ranger\n    Type: Truck\n    Seating: 5\n    Engine: 2.3L EcoBoost\n    Fuel: Diesel\n    Safety: Trailer Sway Control, ABS, Stability Control\n\n    Service:\n    Oil change: 7500 miles\n    Tire rotation: 5000 miles\n    "
+  },
+  {
+    "model": "Ford F-150",
+    "text": "\n    Model: Ford F-150\n    Type: Truck\n    Seating: 5\n    Engine: 3.3L V6\n    Fuel: Petrol\n    Safety: Blind Spot Monitoring, Collision Warning, Lane Assist\n\n    Service:\n    Oil change: 8000 miles\n    Tire rotation: 6000 miles\n    "
+  },
+  {
+    "model": "Ford Super Duty",
+    "text": "\n    Model: Ford Super Duty\n    Type: Truck\n    Seating: 5\n    Engine: 6.7L Power Stroke V8\n    Fuel: Diesel\n    Safety: Trailer Assist, ABS, Stability Control\n\n    Service:\n    Oil change: 10000 miles\n    Tire rotation: 7000 miles\n    "
+  },
+  {
+    "model": "Ford Mustang",
+    "text": "\n    Model: Ford Mustang\n    Type: Sports\n    Seating: 4\n    Engine: 5.0L V8\n    Fuel: Petrol\n    Safety: Traction Control, ABS, Stability Control\n\n    Service:\n    Oil change: 7000 miles\n    Tire rotation: 5000 miles\n    "
+  },
+  {
+    "model": "Ford Escape Hybrid",
+    "text": "\n    Model: Ford Escape Hybrid\n    Type: SUV\n    Seating: 5\n    Engine: 2.5L Hybrid\n    Fuel: Hybrid\n    Safety: Lane Assist, Collision Warning, Emergency Braking\n\n    Service:\n    Oil change: 10000 miles\n    Tire rotation: 5000 miles\n    "
+  },
+  {
+    "model": "Ford F-150 Lightning",
+    "text": "\n    Model: Ford F-150 Lightning\n    Type: Truck\n    Seating: 5\n    Engine: Dual Electric Motor\n    Fuel: Electric\n    Safety: Collision Avoidance, Lane Centering, Driver Monitoring\n\n    Service:\n    Oil change: Not required\n    Tire rotation: 6000 miles\n    "
+  },
+  {
+    "model": "Ford GT",
+    "text": "\n    Model: Ford GT\n    Type: Sports\n    Seating: 2\n    Engine: 3.5L EcoBoost V6\n    Fuel: Petrol\n    Safety: ABS, Traction Control, Stability Control\n\n    Service:\n    Oil change: 5000 miles\n    Tire rotation: Not applicable\n    "
+  }
+]
